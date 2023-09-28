@@ -1,0 +1,226 @@
+@import url('../assets/font/PoppinsFont.css');
+@import-normalize;
+@import-sanitize;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  overflow-x: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --third-bg-color: #17181f;
+  --text-color: #ffffff;
+  --main-color: #0ef;
+
+  
+  --hover-color:#12f7ff;
+  --bg-color2:#081b29;
+  --neon-box-shadow:0 0 .5rem #12f7ff;
+}
+
+html {
+  font-size: 62-5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 8.5rem 9% 2rem;
+}
+
+.headers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 11px 6%;
+  background: var(--third-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 600;
+  cursor: default;
+  text-decoration: none;
+  background-image: -webkit-linear-gradient(0deg, #0ef 40%, #1f5a6e 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbars a {
+  font-size: 21px;
+  color: var(--text-color);
+  text-decoration: none;
+  margin-left: 50px;
+  transition: 3px;
+}
+
+.navbars a:hover,
+.navbars a.actives {
+  color: var(--main-color);
+}
+
+
+.title {
+  color: #a651a8;
+  background-image: -webkit-linear-gradient(0deg, #a891d0 4%, #757016 31%, #5f2dc6 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(1.4);  
+  font-weight: 600;
+}
+
+.main-food {
+  position: relative;
+  align-items: center;
+  padding-right: 6%; /* Set the right padding to 6% */
+  padding-left: 6%;
+}
+
+.subsection {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+  left: 0;
+  padding-top: 130px;
+}
+
+.main-img {
+  width: 40vw;
+  max-width: 600px;
+  border-radius: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 1.7rem;
+  background: var(--main-color);
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1rem;
+  color: var(--second-bg-color);
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  transition: .4s ease;
+}
+
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.btn-box{
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+  width: 320px;
+  height: 45px;
+}
+
+.btn-box a.btns{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: var(--bg-color2);
+  color: var(--hover-color);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: .6s;
+  box-shadow: var(--neon-box-shadow);
+  border-radius: 5px;
+  position: relative;overflow: hidden;
+  z-index: 1;
+  border: 2px solid var(--hover-color);
+}
+
+a.btns:hover{
+  color: var(--bg-color2);
+}
+
+a.btns::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: .4s;
+  background: var(--hover-color);
+
+}
+
+a.btns:hover::before{
+  width: 100%;
+}
+
+.splide__slide img {
+  width: 30vw;
+  height: auto;
+  object-fit: cover;
+}
+
+/* CSS to center-align images vertically */
+.splide__slide {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+  position: relative;
+}
+
+.splide__pagination__page.is-active {
+  background: #0ef !important;
+}
+
+.subsection-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 190px;
+  left: 0;
+  padding-top: 130px;
+}

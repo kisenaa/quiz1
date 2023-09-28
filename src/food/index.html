@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title> Quiz 1 - Food </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0ef" />
+    <meta
+      name="description"
+      content="Quiz 1 for Web Programming E By Johannes Daniswara Pratama (5025221276)"
+    />
+    <link rel="icon" type="image/png" href="../assets/image/favicon-32x32.png" />
+    <!-- CSS & other components-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" integrity="sha256-Yg7qJLDO4djMg5XIDylc8ue2+rliSTwmtJqNQrY6Tck=" crossorigin="anonymous" />
+    <link href="food.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous" />
+    </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!--Header Design-->
+    <header class="headers">
+      <a href="#" class="logo">Quiz 1</a>
+
+      <nav class="navbars">
+        <a href="../">Home</a>
+        <a href="../profile/">Profile</a>
+        <a href="../hometown/">Hometown</a>
+        <a href="#" class="actives">Food</a>
+        <a href="../tourist/">Tourist</a>
+      </nav>
+    </header>
+
+    <!--Food Section #1 -->
+    <section class="main-food" id="main-food">
+      <span class="font-medium text-3xl text-center justify-center flex title">
+        Jakarta Traditional Food
+      </span>
+
+      <div class="subsection">
+
+        <div class="mt-10 flex flex-col items-center gap-12">
+          <img src="../assets/image/sotobetawi.jpg" alt="#" class="main-img" />
+         </div> 
+
+         <div class="mt-10">
+          <div class="mb-4">
+            <span class="text-[#0ef] font-normal text-4xl">Soto Betawi</span>
+          </div>
+
+          <div class="text-justify text-xl font-normal">
+
+            <p >Jakarta, the vibrant capital of Indonesia, is a culinary treasure trove boasting an array of traditional foods that delight the senses. 
+              Jakarta's culinary scene offers a tantalizing journey through the rich and diverse flavors of Indonesian cuisine.</p>
+  
+              <p class="mt-4">
+               One of the famous food from Jakarta is Soto Betawi. It is a soup made with beef, offals, fried potato, and tomato that’s cooked in a cow’s milk or coconut milk broth. 
+               It’s served with fried shallots, emping (fried chips), lime, cucumber pickles, and chili on the side.
+              </p>
+          </div>
+          <div class="btn-box">
+            <a href="#food-list" class="btns">Explore More</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Food Slider Section -->
+
+    <section class="main-food" id="food-list">
+      <div class="text-center text-2xl font-medium">
+        Explore the culinary treasure from Jakarta !
+      </div>
+
+      <div class="subsection-2">
+
+        <div>
+          <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="../assets/image/keraktelor.webp" data-splide-lazy="../assets/image/keraktelor.webp" loading="lazy" id="keraktelor" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img class="max-h-[400px]" src="../assets/image/nasiuduk.webp" data-splide-lazy="../assets/image/nasiuduk.webp" loading="lazy" id="nasiuduk" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="../assets/image/miekangkung.webp" data-splide-lazy="../assets/image/MieKangkung.webp" loading="lazy" id="MieKangkung" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="../assets/image/kueape.webp" data-splide-lazy="../assets/image/kueape.webp" loading="lazy" id="kueape" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="mb-4" id="titles">
+            <span class="text-[#0ef] font-normal text-4xl">Ketak Telor</span>
+          </div>
+
+          <div class="text-justify text-xl font-normal">
+
+            <p id="paragraph-1">Kerak telor is a spicy omelette dish. It’s made with glutinous rice that’s cooked with egg and seasoned with ginger, salt, sugar, and aromatic ginger. 
+              It’s typically served with dried shrimp, fried shallots, and serundeng (fried shredded coconut) on top.</p>
+  
+              <p id="paragraph-2" class="mt-4">
+                Back in the colonial era, kerak telor was considered a privileged food that was only served to the colonial government and upper-class Betawi. 
+                Now, it’s considered a cheap snack and can be purchased from street-food vendors
+              </p>
+          </div>
+
+          <div class="btn-box">
+            <a href="#" class="btns">Read more</a>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </section>
+
+
+
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" integrity="sha256-WEJEZ6uz+kswKoDHEI/iDKgyjk7LQnXPGgTbP6X4Pyc=" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
+    <script src="food.js" type="module"></script>
+  </body>
+
+</html>

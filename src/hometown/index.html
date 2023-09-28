@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title> Quiz 1 - Hometown </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0ef" />
+    <meta
+      name="description"
+      content="Quiz 1 for Web Programming E By Johannes Daniswara Pratama (5025221276)"
+    />
+    <link rel="icon" type="image/png" href="../assets/image/favicon-32x32.png" />
+    <!-- CSS & other components-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" integrity="sha256-Yg7qJLDO4djMg5XIDylc8ue2+rliSTwmtJqNQrY6Tck=" crossorigin="anonymous" />
+    <link href="hometown.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous" />
+    </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!--Header Design-->
+    <header class="headers">
+      <a href="#" class="logo">Quiz 1</a>
+
+      <nav class="navbars">
+        <a href="../">Home</a>
+        <a href="../profile/">Profile</a>
+        <a href="#" class="actives">Hometown</a>
+        <a href="../food/">Food</a>
+        <a href="../tourist/">Tourist</a>
+      </nav>
+    </header>
+
+    <!--Profile Section #1 Design-->
+
+  
+    <section class="hometown-section" id="hometown-section">
+      <span class="font-medium text-3xl text-center justify-center flex title">
+        Special Capital District of Jakarta      
+      </span>
+      
+      <div class="subsection">
+
+        <div class="mt-10 flex flex-col items-center gap-12">
+          <img src="../assets/image/jakarta22.webp" alt="#" class="main-img" />
+          <div class="items-center align-middle justify-between flex gap-2 btn">
+            <i class="bx bxs-map mapbox"></i>
+            Check on Map
+          </div>
+        </div>
+
+        <div class="mb-14">
+          <div class="mb-4">
+            <span class="text-[#0ef] font-normal text-4xl">JAKARTA</span>
+          </div>
+
+          <div class="text-justify text-xl font-normal">
+
+            <p >My hometown is in Jakarta. It is the capital city of Indonesia and located on the northwest coast of the island of Java. 
+              It is the largest city in Indonesia and serves as the political, economic, and cultural center of the country. 
+              Jakarta is known for its bustling urban environment, diverse population, and vibrant cultural scene.</p>
+  
+              <p class="mt-4">
+                Jakarta is home to various landmarks, museums, shopping centers, and cultural attractions, making it a popular destination for 
+                tourists and travelers interested in exploring the culture and history of Indonesia.
+              </p>
+          </div>
+
+          <div class="btn-box">
+            <a href="#latest-pic" class="btns">Explore More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="latest-pic" id="latest-pic">
+      <div class="text-center text-2xl font-medium">
+        Explore the latest picture of my hometown !
+      </div>
+
+      <div class="subsection-place">
+        <div>
+          <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="../assets/image/publicpg.webp" loading="lazy" id="Playground" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img class="max-h-[400px]" src="../assets/image/gbk.webp" loading="lazy" id="gbk" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="../assets/image/MRT.webp" loading="lazy" id="mrt" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="../assets/image/komplek.webp" loading="lazy" id="komplek" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="mb-4" id="titles">
+            <span class="text-[#0ef] font-normal text-4xl">Public Playground</span>
+          </div>
+
+          <div class="text-justify text-xl font-normal">
+
+            <p id="paragraph-1">Jakarta, the capital city of Indonesia, has several public playgrounds and gardens where residents and visitors
+               can enjoy outdoor activities and green spaces</p>
+  
+              <p id="paragraph-2" class="mt-4">
+                The city offers a variety of outdoor spaces where people can relax, play, and connect with nature while enjoying the 
+                urban environment
+              </p>
+          </div>
+
+          <div class="btn-box">
+            <a href="#" class="btns">Read more</a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" integrity="sha256-WEJEZ6uz+kswKoDHEI/iDKgyjk7LQnXPGgTbP6X4Pyc=" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
+    <script src="hometown.js" type="module"></script>
+  </body>
+</html>

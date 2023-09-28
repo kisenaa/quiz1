@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title> Quiz 1 - Profile </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0ef" />
+    <meta
+      name="description"
+      content="Quiz 1 for Web Programming E By Johannes Daniswara Pratama (5025221276)"
+    />
+    <link rel="icon" type="image/png" href="../assets/image/favicon-32x32.png" />
+    <!-- CSS & other components-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" integrity="sha256-Yg7qJLDO4djMg5XIDylc8ue2+rliSTwmtJqNQrY6Tck=" crossorigin="anonymous" />
+    <link href="profile.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!--Header Design-->
+    <header class="headers">
+      <a href="#" class="logo">Quiz 1</a>
+
+      <nav class="navbars">
+        <a href="../">Home</a>
+        <a href="#" class="actives">Profile</a>
+        <a href="../hometown/">Hometown</a>
+        <a href="../food/">Food</a>
+        <a href="../tourist/">Tourist</a>
+      </nav>
+    </header>
+
+    <!--Profile Section #1 Design-->
+
+    <section class="profiles" id="profiles">
+      <div class="profiles-content relative">
+          <img class="max-w-[500px] rounded-full" src="../assets/image/profilepic-compressed.webp" alt="#" />          
+          <div class="absolute left-1/2 transform -translate-x-1/2 mt-12">
+            <a href="#" id="explore-link" class="btn">
+              Contact Me
+            </a>
+          </div>
+
+      </div>
+
+      <div class="profile-desc mt-12">
+          <h3 class="text-4xl text-gradient mb-4">My name is Johannes Daniswara Pratama</h3>
+          <p class="text-xl font-normal text-left"> People usually call me Johannes. I'm currently a college student pursuing a Bachelor's degree in Informatics Engineering at
+              Institut Teknologi Sepuluh Nopember Surabaya. I am deeply passionate about the realms of technology, software development, 
+              and machine learning.
+          </p>
+
+          <p class="mt-7 font-normal text-xl text-[#0ef]">
+            I'm currently a Frontend Developer for Bayucaraka ITS
+          </p>
+
+          <div>
+            <div class="social-media">
+              <a href="https://github.com/kisenaa" target="_blank">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/johannesdaniswara/" target="blank">
+              <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/lightexists_?s=09" target="_blank">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </div>
+            <div class="btn-box">
+              <a href="#skills-section" class="btns">See My Skills</a>
+            </div>
+
+          </div>
+          
+        </div>
+
+    </section>
+    
+    <section id="skills-section">
+      <div class="text-center">
+        <span class="font-semibold text-2xl text-[#0ef]">
+          My Skills
+        </span>
+      </div>
+
+      <div class="sub-skills">
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="60"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="55"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">JavaScript</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="55"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">C++</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" integrity="sha256-WEJEZ6uz+kswKoDHEI/iDKgyjk7LQnXPGgTbP6X4Pyc=" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="profile.js" type="module"></script>
+  </body>
+
+</html>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title> Quiz 1 - Tourist </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0ef" />
+    <meta
+      name="description"
+      content="Quiz 1 for Web Programming E By Johannes Daniswara Pratama (5025221276)"
+    />
+    <link rel="icon" type="image/png" href="../assets/image/favicon-32x32.png" />
+    <!-- CSS & other components-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" integrity="sha256-Yg7qJLDO4djMg5XIDylc8ue2+rliSTwmtJqNQrY6Tck=" crossorigin="anonymous" />
+    <link href="tourist.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous" />
+    </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!--Header Design-->
+    <header class="headers">
+      <a href="#" class="logo">Quiz 1</a>
+
+      <nav class="navbars">
+        <a href="../">Home</a>
+        <a href="../profile/">Profile</a>
+        <a href="../hometown/">Hometown</a>
+        <a href="../food/">Food</a>
+        <a href="#" class="actives">Tourist</a>
+      </nav>
+    </header>
+
+    <!--Profile Section #1 Design-->
+
+  
+    <section class="hometown-section" id="hometown-section">
+      <span class="font-medium text-3xl text-center justify-center flex title">
+        Tourist Spot at Jakarta      
+      </span>
+      
+      <div class="subsection">
+
+        <div class="mt-10 flex flex-col items-center gap-12">
+          <img src="../assets/image/monas.webp" alt="#" class="main-img" />
+          <div class="items-center align-middle justify-between flex gap-2 btn">
+            <i class="bx bxs-map mapbox"></i>
+            Check on Map
+          </div>
+        </div>
+
+        <div class="mb-14">
+          <div class="mb-4">
+            <span class="text-[#0ef] font-normal text-4xl">MONAS</span>
+          </div>
+
+          <div class="text-justify text-xl font-normal">
+
+            <p >The National Monument (MONAS) is a 132 m tower in the centre of Merdeka Square, Central Jakarta that symbolizing the fight for Indonesia. 
+              It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence.</p>
+  
+              <p class="mt-4">
+                You can either enjoy the view of this amazing piece of architecture from the ground or you can climb all the way to the top and enjoy the stunning view of the city. 
+                The national monument holds a special place in the heart of the people of Indonesia.
+              </p>
+          </div>
+
+          <div class="btn-box">
+            <a href="#latest-pic" class="btns">Explore More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="latest-pic" id="latest-pic">
+      <div class="text-center text-2xl font-medium">
+        Explore the wide variety of Tourist Spot at Jakarta !
+      </div>
+
+      <div class="subsection-place">
+        <div>
+          <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="../assets/image/ragunan.webp" loading="lazy" id="ragunan" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img class="max-h-[400px]" src="../assets/image/tamanmini.webp" loading="lazy" id="tamanmini" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="../assets/image/museum.webp" loading="lazy" id="museum" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="../assets/image/thousandisland.webp" loading="lazy" id="thousandisland" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="mb-4" id="titles">
+            <span class="text-[#0ef] font-normal text-4xl">Ragunan</span>
+          </div>
+
+          <div class="text-justify text-xl font-normal">
+
+            <p id="paragraph-1">Wildlife and nature lovers must head to the Ragunan Zoo which is spread over a whopping 185 hectares of land and boasts of over 3,600 species unlike other zoos around the world. 
+              Some of the fauna that you can spot here include orangutans and Komodo Dragons</p>
+  
+              <p id="paragraph-2" class="mt-4">
+                This zoo is also home to animals from other parts of the world, 
+                as well as some indigenous flowers and plants that are sure to bewitch you with their beauty !
+              </p>
+          </div>
+
+          <div class="btn-box">
+            <a href="#" class="btns">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" integrity="sha256-WEJEZ6uz+kswKoDHEI/iDKgyjk7LQnXPGgTbP6X4Pyc=" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
+    <script src="tourist.js" type="module"></script>
+  </body>
+</html>
