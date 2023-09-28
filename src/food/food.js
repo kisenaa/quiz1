@@ -56,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
   splide = new Splide('#image-carousel', {
     width: '720px',
     height: '490px',
-    lazyLoad: 'nearby',
   }).mount()
   // Add an event listener to the 'moved' event of the Splide carousel
   splide.on('move', () => {
