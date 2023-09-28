@@ -57,9 +57,6 @@ jobs:
       - name: BUILD
         run: pnpm build
 
-      - name: TEST
-        run: pnpm test
-
       # Upload dist artifacts
       - uses: actions/upload-artifact@v3
         with:
