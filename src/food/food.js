@@ -40,7 +40,7 @@ const updateContent = (imageId) => {
   const content = contentMap[imageId] || {
     title: 'Default Titless',
     paragraph1: 'Default Paragraph 111',
-    paragraph2: 'Default Paragraph 2ss',
+    paragraph2: 'Default Paragraph 2s',
   }
 
   titleElement.innerHTML = `<span class="text-[#0ef] font-normal text-4xl">${content.title}</span>`
