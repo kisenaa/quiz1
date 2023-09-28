@@ -6,15 +6,11 @@ on:
     branches:
       - "*"
     # Run only if files modified are not docs
-    paths-ignore:
-      - "*.md"
   pull_request:
     # Run on all branches
     branches:
       - "*"
-    # Run only if files modified are not docs
-    paths-ignore:
-      - "*.md"
+
 
 env:
   GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

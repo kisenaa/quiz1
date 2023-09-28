@@ -39,7 +39,7 @@ const updateContent = (imageId) => {
 
   const content = contentMap[imageId] || {
     title: 'Default Title',
-    paragraph1: 'Default Paragraph 11',
+    paragraph1: 'Default Paragraph 11s',
     paragraph2: 'Default Paragraph 22',
   }
 
