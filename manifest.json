@@ -1,0 +1,148 @@
+{
+  "_modulepreload-polyfill-3cfb730f.js": {
+    "file": "assets/modulepreload-polyfill-3cfb730f.js"
+  },
+  "assets/image/MRT.webp": {
+    "file": "assets/MRT-828ae264.webp",
+    "src": "assets/image/MRT.webp"
+  },
+  "assets/image/gbk.webp": {
+    "file": "assets/gbk-17ab0c27.webp",
+    "src": "assets/image/gbk.webp"
+  },
+  "assets/image/jakarta22.webp": {
+    "file": "assets/jakarta22-67727109.webp",
+    "src": "assets/image/jakarta22.webp"
+  },
+  "assets/image/keraktelor.webp": {
+    "file": "assets/keraktelor-5345f63e.webp",
+    "src": "assets/image/keraktelor.webp"
+  },
+  "assets/image/komplek.webp": {
+    "file": "assets/komplek-8e37dee2.webp",
+    "src": "assets/image/komplek.webp"
+  },
+  "assets/image/kueape.webp": {
+    "file": "assets/kueape-d49e997e.webp",
+    "src": "assets/image/kueape.webp"
+  },
+  "assets/image/miekangkung.webp": {
+    "file": "assets/miekangkung-35586c41.webp",
+    "src": "assets/image/miekangkung.webp"
+  },
+  "assets/image/monas.webp": {
+    "file": "assets/monas-29b5198e.webp",
+    "src": "assets/image/monas.webp"
+  },
+  "assets/image/museum.webp": {
+    "file": "assets/museum-38c16e18.webp",
+    "src": "assets/image/museum.webp"
+  },
+  "assets/image/nasiuduk.webp": {
+    "file": "assets/nasiuduk-6dbba581.webp",
+    "src": "assets/image/nasiuduk.webp"
+  },
+  "assets/image/profilepic-compressed.webp": {
+    "file": "assets/profilepic-compressed-58b5b4fa.webp",
+    "src": "assets/image/profilepic-compressed.webp"
+  },
+  "assets/image/publicpg.webp": {
+    "file": "assets/publicpg-94dd25fc.webp",
+    "src": "assets/image/publicpg.webp"
+  },
+  "assets/image/ragunan.webp": {
+    "file": "assets/ragunan-748fb666.webp",
+    "src": "assets/image/ragunan.webp"
+  },
+  "assets/image/sotobetawi.jpg": {
+    "file": "assets/sotobetawi-bd6bc6cb.jpg",
+    "src": "assets/image/sotobetawi.jpg"
+  },
+  "assets/image/tamanmini.webp": {
+    "file": "assets/tamanmini-1361f055.webp",
+    "src": "assets/image/tamanmini.webp"
+  },
+  "assets/image/thousandisland.webp": {
+    "file": "assets/thousandisland-6ebcdf1c.webp",
+    "src": "assets/image/thousandisland.webp"
+  },
+  "assets/image/tohka-compressed.webp": {
+    "file": "assets/tohka-compressed-2ceb4147.webp",
+    "src": "assets/image/tohka-compressed.webp"
+  },
+  "food/index.css": {
+    "file": "assets/index-f865b8ab.css",
+    "src": "food/index.css"
+  },
+  "food/index.html": {
+    "css": [
+      "assets/index-f865b8ab.css"
+    ],
+    "file": "assets/food-34529b50.js",
+    "imports": [
+      "_modulepreload-polyfill-3cfb730f.js"
+    ],
+    "isEntry": true,
+    "src": "food/index.html"
+  },
+  "hometown/index.css": {
+    "file": "assets/index-da63061f.css",
+    "src": "tourist/index.css"
+  },
+  "hometown/index.html": {
+    "css": [
+      "assets/index-da63061f.css"
+    ],
+    "file": "assets/hometown-5282a5b7.js",
+    "imports": [
+      "_modulepreload-polyfill-3cfb730f.js"
+    ],
+    "isEntry": true,
+    "src": "hometown/index.html"
+  },
+  "index.css": {
+    "file": "assets/index-43fc8d03.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "assets/index-43fc8d03.css"
+    ],
+    "file": "assets/@-b782a0f8.js",
+    "imports": [
+      "_modulepreload-polyfill-3cfb730f.js"
+    ],
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "profile/index.css": {
+    "file": "assets/index-55a9cded.css",
+    "src": "profile/index.css"
+  },
+  "profile/index.html": {
+    "css": [
+      "assets/index-55a9cded.css"
+    ],
+    "file": "assets/profile-180600da.js",
+    "imports": [
+      "_modulepreload-polyfill-3cfb730f.js"
+    ],
+    "isEntry": true,
+    "src": "profile/index.html"
+  },
+  "tourist/index.css": {
+    "file": "assets/index-da63061f.css",
+    "src": "tourist/index.css"
+  },
+  "tourist/index.html": {
+    "css": [
+      "assets/index-da63061f.css"
+    ],
+    "file": "assets/tourist-f11a48b1.js",
+    "imports": [
+      "_modulepreload-polyfill-3cfb730f.js"
+    ],
+    "isEntry": true,
+    "src": "tourist/index.html"
+  }
+}
