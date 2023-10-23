@@ -49,8 +49,12 @@ body {
   color: var(--text-color);
 }
 
-section {
-  min-height: 100vh;
+.sections {
+  min-height: 95vh;
+  padding: 8.5rem 9% 2rem;
+}
+
+.netlifys {
   padding: 8.5rem 9% 2rem;
 }
 
