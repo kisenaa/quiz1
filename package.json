@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "author": "Johannes Daniswara Pratama",
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">=14"
   },
