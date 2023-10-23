@@ -42,6 +42,10 @@
     "file": "assets/nasiuduk-6dbba581.webp",
     "src": "assets/image/nasiuduk.webp"
   },
+  "assets/image/netlify.svg": {
+    "file": "assets/netlify-b9ef8c38.svg",
+    "src": "assets/image/netlify.svg"
+  },
   "assets/image/profilepic-compressed.webp": {
     "file": "assets/profilepic-compressed-58b5b4fa.webp",
     "src": "assets/image/profilepic-compressed.webp"
@@ -71,14 +75,14 @@
     "src": "assets/image/tohka-compressed.webp"
   },
   "food/index.css": {
-    "file": "assets/index-f865b8ab.css",
+    "file": "assets/index-21518782.css",
     "src": "food/index.css"
   },
   "food/index.html": {
     "css": [
-      "assets/index-f865b8ab.css"
+      "assets/index-21518782.css"
     ],
-    "file": "assets/food-d54e4c7e.js",
+    "file": "assets/food-646521ef.js",
     "imports": [
       "_modulepreload-polyfill-3cfb730f.js"
     ],
@@ -86,14 +90,14 @@
     "src": "food/index.html"
   },
   "hometown/index.css": {
-    "file": "assets/index-da63061f.css",
+    "file": "assets/index-358f80e6.css",
     "src": "tourist/index.css"
   },
   "hometown/index.html": {
     "css": [
-      "assets/index-da63061f.css"
+      "assets/index-358f80e6.css"
     ],
-    "file": "assets/hometown-5282a5b7.js",
+    "file": "assets/hometown-fd77d465.js",
     "imports": [
       "_modulepreload-polyfill-3cfb730f.js"
     ],
@@ -101,14 +105,14 @@
     "src": "hometown/index.html"
   },
   "index.css": {
-    "file": "assets/index-43fc8d03.css",
+    "file": "assets/index-d19f310a.css",
     "src": "index.css"
   },
   "index.html": {
     "css": [
-      "assets/index-43fc8d03.css"
+      "assets/index-d19f310a.css"
     ],
-    "file": "assets/@-b782a0f8.js",
+    "file": "assets/@-84ee1465.js",
     "imports": [
       "_modulepreload-polyfill-3cfb730f.js"
     ],
@@ -116,14 +120,14 @@
     "src": "index.html"
   },
   "profile/index.css": {
-    "file": "assets/index-55a9cded.css",
+    "file": "assets/index-d73cd1d7.css",
     "src": "profile/index.css"
   },
   "profile/index.html": {
     "css": [
-      "assets/index-55a9cded.css"
+      "assets/index-d73cd1d7.css"
     ],
-    "file": "assets/profile-180600da.js",
+    "file": "assets/profile-c0423574.js",
     "imports": [
       "_modulepreload-polyfill-3cfb730f.js"
     ],
@@ -131,14 +135,14 @@
     "src": "profile/index.html"
   },
   "tourist/index.css": {
-    "file": "assets/index-da63061f.css",
+    "file": "assets/index-358f80e6.css",
     "src": "tourist/index.css"
   },
   "tourist/index.html": {
     "css": [
-      "assets/index-da63061f.css"
+      "assets/index-358f80e6.css"
     ],
-    "file": "assets/tourist-f566f354.js",
+    "file": "assets/tourist-145431d0.js",
     "imports": [
       "_modulepreload-polyfill-3cfb730f.js"
     ],
